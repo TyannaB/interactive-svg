@@ -6,7 +6,23 @@
   animation: eyeballs 3s linear infinite;
 }
 
-@@keyframes eyeballs {
+#right-ear {
+  transition: all 5s linear;
+}
+
+#left-ear {
+  transition: all 5s linear
+}
+
+#face:hover #right-ear {
+
+}
+
+#face:hover #left-ear {
+
+}
+
+@keyframes eyeballs {
 
   0% {
     transform: translateX(-6px);
